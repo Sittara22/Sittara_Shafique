@@ -1,0 +1,83 @@
+#about{
+overflow: hidden;
+height: calc(100vh - 4rem);
+width: 100vw;
+max-width: 65rem;
+margin: 0 auto;
+margin-top: 6rem;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+.title{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+.introDesc{
+    font-weight: 300;
+    font-size: 1.2rem;
+    max-width: 50rem;
+    padding: 0 2rem;
+    margin-top: 1.5rem;
+}
+.focus{
+    color: yellow;
+}
+.skillsIcon{
+    margin: 0 auto;
+    width:83vw;
+    max-width: 80%;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.Icon{
+width: 5rem;
+height: 6rem;
+background-color:transparent;
+border-radius: 0.25rem;
+}
+.imgFrame{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 19px rgba(0, 0, 0, 0.3); 
+     backdrop-filter: blur(10px);
+}
+.imgFrame:hover{
+    box-shadow: 0 0 19px rgba(254, 247, 247, 0.3); 
+     backdrop-filter: blur(10px);
+}
+.text{
+    text-align: center;
+}
+
+@media screen and (max-width:680px) {
+    .Icon{
+        width: 2rem;
+        height: 3rem;
+        
+    }
+    .introDesc{
+        font-weight: 200;
+        font-size: 0.75rem;
+        max-width: 40rem;
+        padding: 0 2rem;
+        overflow: auto;
+        overflow-y: scroll;
+    }
+    .title{
+        font-size: 2rem;
+        font-weight: 400;
+
+    }
+    .text{
+        font-size: 0.75rem;
+
+    }
+}
