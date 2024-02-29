@@ -15,7 +15,6 @@ const Navbar = () => {
              <Link activeClass='active'to='intro'spy={true} smooth={true} offset={-65} duration={500} className='desktopMenuListItems'>Home</Link>
              <Link activeClass='active'to='works'spy={true} smooth={true} offset={-40} duration={500} className='desktopMenuListItems'>Portfolio</Link>
              <Link className='desktopMenuListItems' activeClass='active'to='about'spy={true} smooth={true} offset={-40} duration={500}>About</Link>
-             <Link activeClass='active'to='resume'spy={true} smooth={true} offset={-40} duration={500} className='desktopMenuListItems'>Resume</Link>
 
          </div>
 
@@ -28,7 +27,6 @@ const Navbar = () => {
              <Link onClick={()=>{setshowMenu(false)}} activeClass='active'to='intro'spy={true} smooth={true} offset={-65} duration={500} className='listItem'>Home</Link>
              <Link onClick={()=>{setshowMenu(false)}} activeClass='active'to='works'spy={true} smooth={true} offset={-40} duration={500} className='listItem'>Portfolio</Link>
              <Link onClick={()=>{setshowMenu(false)}} className='listItem' activeClass='active'to='about'spy={true} smooth={true} offset={-40} duration={500}>About</Link>
-             <Link onClick={()=>{setshowMenu(false)}}  className='listItem' activeClass='active'to='resume'spy={true} smooth={true} offset={-40} duration={500}>Resume</Link>
              <Link onClick={()=>{setshowMenu(false)}} className='listItem' activeClass='active'to='Contact_me'spy={true} smooth={true} offset={-40} duration={500}>Contact Me</Link>
 
          </div>

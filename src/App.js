@@ -4,7 +4,6 @@ import About from "./components/About/about";
 import Works from "./components/Works/works"
 import ContactMe from "./components/Contact_me/contact_me";
 import Footer from "./components/Footer/footer"
-import Resume from "./components/Resume/resume";
 
 function App() {
   return (
@@ -13,7 +12,6 @@ function App() {
           <Intro/>
           <About/>
           <Works/>
-          <Resume/>
           <ContactMe/>
           <Footer/>
     </div>
