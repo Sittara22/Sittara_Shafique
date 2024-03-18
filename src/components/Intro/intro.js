@@ -16,7 +16,7 @@ function Intro() {
         My field of interest is to develope websites by applying JavaScript Library<span className="strong"> React Js</span></span> </p>
         </div>
             <Link><button className="btn">
-  <a href="/resume/Sittara_Shafique.pdf" download>
+  <a href="./resume/Sittara_Shafique.pdf" download>
     <img className='btnImg' src={btnImg} alt="Hire me" />
     <span>Hire me</span>
   </a>

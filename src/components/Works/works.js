@@ -1,12 +1,8 @@
 import React from 'react'
 import './works.css'
-import Portfolio1 from '../../assets/portfolio-1.png'
-import Portfolio2 from '../../assets/portfolio-2.png'
-import Portfolio3 from '../../assets/portfolio-3.png'
-import Portfolio4 from '../../assets/portfolio-4.png'
-import Portfolio5 from '../../assets/portfolio-5.png'
-import Portfolio6 from '../../assets/portfolio-6.png'
-
+import musicApp from '../../assets/musicApp.png'
+import currencyApp from '../../assets/currencyApp.png'
+import todoApp from '../../assets/todoApp.png'
 function Works() {
   return (
     <div>
@@ -18,12 +14,9 @@ function Works() {
             I take pride in paying attention to the smallest details and making sure that my work is pixel perfect.I am excited to bring my skills and experience to help business achieve their goals and create a stron online presence.
             </span>
             <div className="workImgs">
-                <img src={Portfolio1} alt="" className="workImg" />
-                <img src={Portfolio2} alt="" className="workImg" />
-                <img src={Portfolio3} alt="" className="workImg" />
-                <img src={Portfolio4} alt="" className="workImg" />
-                <img src={Portfolio5} alt="" className="workImg" />
-                <img src={Portfolio6} alt="" className="workImg" />
+            <div className='pFrame'><a href="https://steady-monstera-91b0eb.netlify.app/" target="_blank"><img src={musicApp} alt="" className="workImg"/></a><span className='pTitle'>Music App</span></div>
+            <div className='pFrame'><a href="https://resilient-flan-f09e1c.netlify.app/" target="_blank"><img src={currencyApp} alt="" className="workImg"/></a><span className='pTitle'>Currency Converter</span></div>
+            <div className='pFrame'> <a href="https://visionary-cajeta-31f4df.netlify.app/" target="_blank"><img src={todoApp} alt="" className="workImg"/></a><span className='pTitle'>Todo App</span></div>
             </div>
             <button className="workBtn">See More</button>
         </section>
