@@ -59,12 +59,9 @@ border-radius: 0.25rem;
     align-items: center;
     margin: 0.5rem;
     border-radius: 0.25rem;
-    box-shadow: 0 0 19px rgba(0, 0, 0, 0.3); 
+     box-shadow: 0 0 19px rgba(254, 247, 247, 0.3); 
      backdrop-filter: blur(10px);
-}
-.imgFrame:hover{
-    box-shadow: 0 0 19px rgba(254, 247, 247, 0.3); 
-     backdrop-filter: blur(10px);
+
 }
 .text{
     text-align: center;
